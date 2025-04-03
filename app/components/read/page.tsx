@@ -7,7 +7,7 @@ interface Comment {
   id: string;
   text: string;
   replies: Comment[];
-  // voiceNote?: string | null;
+  voiceNote?: string | null;
   image?: string | null;
   parentId?: string | null;
 }
