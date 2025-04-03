@@ -2,6 +2,7 @@
 import Image from "next/image";
 import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
+import Marquee from "react-fast-marquee";
 
 interface Comment {
   id: string;
@@ -350,11 +351,11 @@ export default function Home() {
       </div>
 
       {/* Breaking News Marquee */}
-      <div className="bg-gray-300 p-2 text-center text-sm mt-6">
-        <marquee>
-          🚨 Breaking News: Major tech breakthrough • Stock market sees record highs • New space mission announced
-        </marquee>
-      </div>
+            <div className="bg-gray-300 p-2 text-center text-sm mt-6">
+              <Marquee>
+                🚨 Breaking News: Major tech breakthrough • Stock market sees record highs • New space mission announced
+              </Marquee>
+            </div>
     </div>
   );
 }

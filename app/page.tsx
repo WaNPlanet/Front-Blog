@@ -2,6 +2,7 @@
 import Image from "next/image";
 import { useState } from "react";
 import Link from "next/link";
+import Marquee from "react-fast-marquee";
 
 export default function Home() {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
@@ -99,11 +100,10 @@ export default function Home() {
       </div>
 
       {/* Breaking News */}
-      <div className="bg-gray-200 p-2 text-center text-sm">
-        <marquee>
-          🚨 Breaking News: Prevent future pandemics just 5% off • Deadly project
-          recovered in Alec Baldwin • Maserati Boomerang turns 50
-        </marquee>
+      <div className="bg-gray-300 p-2 text-center text-sm mt-6">
+        <Marquee>
+          🚨 Breaking News: Major tech breakthrough • Stock market sees record highs • New space mission announced
+        </Marquee>
       </div>
     </div>
   );
