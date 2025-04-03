@@ -7,7 +7,7 @@ interface Comment {
   id: string;
   text: string;
   replies: Comment[];
-  voiceNote?: string | null;
+  // voiceNote?: string | null;
   image?: string | null;
   parentId?: string | null;
 }
@@ -18,7 +18,7 @@ export default function Home() {
   const [newComment, setNewComment] = useState("");
   const [replyingTo, setReplyingTo] = useState<string | null>(null);
   const [replyText, setReplyText] = useState("");
-  const [voiceNote, setVoiceNote] = useState<File | null>(null);
+  // const [voiceNote, setVoiceNote] = useState<File | null>(null);
   const [image, setImage] = useState<File | null>(null);
   const [recording, setRecording] = useState(false);
   const [recordedAudio, setRecordedAudio] = useState<string | null>(null);
@@ -254,7 +254,7 @@ export default function Home() {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 p-6">
         {/* Main Featured News */}
         <div className="md:col-span-2 space-y-4">
-          <h1 className="text-4xl font-bold">Today's Top Story</h1>
+          <h1 className="text-4xl font-bold">Today&apos;s Top Story</h1>
           <h2 className="text-xl font-semibold">60 Classic Cars Found in a Barn Go Up for Auction</h2>
           <p className="text-gray-700">By Jenny Preston • 22 May 2022</p>
           <Image 
@@ -271,8 +271,8 @@ export default function Home() {
           </p>
           <p className="text-gray-800 mt-2">
             Many of the vehicles have been well-preserved, with their original paintwork and interiors intact. Others, however, will require
-            significant restoration. "This is a once-in-a-lifetime find," says auto historian Mark Daniels. "It's incredible to see so many
-            classic cars in one place."
+            significant restoration. &quot;This is a once-in-a-lifetime find&quot;, says auto historian Mark Daniels. &quot;It&apos;s incredible to see so many
+            classic cars in one place.&quot;
           </p>
         </div>
 

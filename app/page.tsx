@@ -31,7 +31,7 @@ export default function Home() {
       <div className="p-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {/* Left Column - Featured News */}
         <div className="space-y-4">
-          <h1 className="text-4xl font-bold">TODAY'S NEWS</h1>
+          <h1 className="text-4xl font-bold">TODAY&apos;S NEWS</h1>
           <h2 className="text-xl font-semibold">
             60 Awesome Classic Cars Found Rotting in a Barn Go Up for Auction
           </h2>
@@ -74,7 +74,7 @@ export default function Home() {
                         <span className="font-bold text-black">- Travel</span>
                         <span className="text-gray-600">• By Kyere</span>
                       </p>
-                      <img src="./foward.png" alt="arrow" className="w-10 h-10" />
+                      <Image  src="./foward.png" alt="arrow" className="w-10 h-10" />
                     </div>
                   </div>
                 </li>
