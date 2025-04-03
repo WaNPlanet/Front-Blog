@@ -23,8 +23,8 @@ export default function Home() {
         <ul className="flex space-x-6">
           <li><Link href="/" className="text-gray-600 hover:text-black">Home</Link></li>
           <li><Link href="/components/category" className="text-gray-600 hover:text-black">Categories</Link></li>
-          <li><Link href="/blog" className="text-gray-600 hover:text-black">Blog</Link></li>
-          <li><Link href="/contact" className="text-gray-600 hover:text-black">Contact</Link></li>
+          {/* <li><Link href="/blog" className="text-gray-600 hover:text-black">Blog</Link></li>
+          <li><Link href="/contact" className="text-gray-600 hover:text-black">Contact</Link></li> */}
         </ul>
       </nav>
 
@@ -75,7 +75,7 @@ export default function Home() {
                         <span className="font-bold text-black">- Travel</span>
                         <span className="text-gray-600">• By Kyere</span>
                       </p>
-                      <Image  src="./foward.png" alt="arrow" className="w-10 h-10" />
+                      <Image  src="/foward.png" alt="arrow" className="w-10 h-10" />
                     </div>
                   </div>
                 </li>

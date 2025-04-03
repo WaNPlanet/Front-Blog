@@ -246,8 +246,8 @@ export default function Home() {
         <ul className="flex space-x-6">
           <li><Link href="/" className="text-gray-600 hover:text-black">Home</Link></li>
           <li><Link href="/components/category" className="text-gray-600 hover:text-black">Categories</Link></li>
-          <li><Link href="/blog" className="text-gray-600 hover:text-black">Blog</Link></li>
-          <li><Link href="/contact" className="text-gray-600 hover:text-black">Contact</Link></li>
+          {/* <li><Link href="/blog" className="text-gray-600 hover:text-black">Blog</Link></li>
+          <li><Link href="/contact" className="text-gray-600 hover:text-black">Contact</Link></li> */}
         </ul>
       </nav>
 
